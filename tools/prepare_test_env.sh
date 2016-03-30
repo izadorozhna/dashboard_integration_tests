@@ -26,6 +26,8 @@ install_system_requirements() {
     yum -y install python-pip
     yum -y install firefox
     yum -y install xorg-x11-server-Xvfb
+
+    export PATH=$PATH:/usr/bin/firefox
 }
 
 install_python27_pip_virtualenv() {
